@@ -1,0 +1,82 @@
+#resetButton{
+	position: absolute; 
+	top:50%; 
+	margin-top: -63px;
+	left:50%;
+	margin-left: -155px;
+	width: 326px;
+	height: 126px;
+	background: #010303;
+	background: -webkit-linear-gradient(#010303, #073763);
+	background: linear-gradient(#010303, #073763);
+	border-radius: 5px;
+	color: #ffffff;
+	display: none;
+	font: normal 700 50px/1 "Calibri", sans-serif;
+	text-align: center;
+	text-shadow: 1px 1px #000000;
+}
+
+#playButton{
+	position: absolute; 
+	top:50%; 
+	left:50%; 
+	margin-left: -60px;
+	margin-top: -60px;
+	z-index: 1;
+	display: none;
+	width: 148px;
+	height: 148px;
+	border-style: solid;
+	border-width: 74px 0px 74px 148px;
+	box-sizing: border-box;
+	border-color: transparent transparent transparent #202020;
+	background: transparent;
+}
+
+#pauseButton{
+	position: absolute; 
+	top:30px; 
+	left:30px; 
+	cursor: pointer
+	border-style: double;
+	width: 40px;
+	height: 40px;
+	display: none;
+	border-style: solid;
+	border-width: 37px;
+	border-color: #202020;
+	border-width: 0px 15px 0px 15px;
+	background: #00BFFF;
+}
+
+#startButton{
+	position: absolute; 
+	top: 50%; 
+	margin-top: -63px;
+	left:50%;
+	margin-left: -155px;
+	cursor: pointer;
+	width: 326px;
+	height: 126px;
+	display: inline-block;
+	background: #010303;
+	background: -webkit-linear-gradient(#010303, #073763);
+	background: linear-gradient(#010303, #073763);
+	border-radius: 5px;
+	color: #ffffff;
+	font: normal 700 50px/1 "Calibri", sans-serif;
+	text-align: center;
+	text-shadow: 1px 1px #000000;
+}
+
+#container{
+	background:#00BFFF;
+	width: 700px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	margin-top: -250px;
+	left: 50%;
+	margin-left: -350px;
+}
