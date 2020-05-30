@@ -1,6 +1,6 @@
 # Fish Game
 
-JavaScript game where the bigger fish eat the smaller fish. The player is the orange fish and can only eat the crossing fish which are smaller than them. As the player eats more fish, the player gets bigger and can eat bigger fish.
+JavaScript game where the big fish eat the smaller fish. The player is the orange fish and can only eat the crossing fish which are smaller than them. As the player eats more fish, the player gets bigger and can eat larger fish.
 
 ## Visuals
 
