@@ -25,7 +25,7 @@ Other Fish:
 
 ## Usage
 
-After forking repository, the project can be run in any browser including IE11 and above, chrome, edge and firefox.
+After forking repository, the project can be run the browser. Browser support includes IE11 and above, Chrome, Edge and Firefox.
 
 ## Inspiration
 
