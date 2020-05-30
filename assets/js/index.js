@@ -81,7 +81,7 @@ function initialize(){
 	fishImg.style.position = "absolute";
 	fishImg.style.top = fish.y + 'px';
 	fishImg.style.left = fish.x + 'px';
-	fishImg.src = 'assets/img/fish'+fish.img+'-b.png';
+	fishImg.src = 'assets/img/7fish'+fish.img+'-b.png';
 	fishImg.style.width = fish.dim + 'px';
 	fishImg.style.height = fish.dim + 'px';
 	fishImg.id = fishCounter + '';
@@ -317,11 +317,13 @@ function createNewFish(side){
 	fishImg.style.position = "absolute";
 	fishImg.style.top = fish.y + 'px';
 	fishImg.style.left = fish.x + 'px';
+	
+	var color = Math.floor(Math.random() * 10);
 	if(side){
-		fishImg.src = 'assets/img/fish'+fish.img+'-b.png';
+		fishImg.src = 'assets/img/' + color + 'fish'+fish.img+'-b.png';
 	}
 	else{
-		fishImg.src = 'assets/img/fish'+fish.img+'.png';
+		fishImg.src = 'assets/img/' + color + 'fish'+fish.img+'.png';
 	}
 	fishImg.style.width = fish.dim + 'px';
 	fishImg.style.height = fish.dim + 'px';
