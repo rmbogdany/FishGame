@@ -5,18 +5,25 @@
 <!DOCTYPE HTML>
 <html lang = "en">
 <head>
+	<meta charset="utf-8"/>
 	<link rel="stylesheet" href="assets/css/styles.css"/>
 	<script src="assets/js/index.js"></script>
 	<script src="https://kit.fontawesome.com/910b08de2b.js" crossorigin="anonymous"></script>
 	<title>Fish Game</title>
 </head>
-<body>
+<body onload="setUp()">
 	<div id="container">
 		<button id="startButton" onclick="initialize()">Start</button>
 		<button id="pauseButton" onclick="pauseGame()"></button>
 		<button id="playButton" onclick="playGame()"></button>
 		<button id="resetButton" onclick="initialize()">Try Again</button>
 		<button id="stopButton" onclick="stopGame()">End Game</button>
+		<button id="up" class="arrowkeys">&uarr;</button>
+		<button id="down" class="arrowkeys">&darr;</button>
+		<button id="left" class="arrowkeys">&larr;</button>
+		<button id="right" class="arrowkeys">&rarr;</button>
+		<p id="highScore"></p>
+		<p id="score">Score: 0</p>
 	</div>
 </body>
 </html>

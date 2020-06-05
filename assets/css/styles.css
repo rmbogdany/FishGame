@@ -118,3 +118,62 @@
 	margin-left: -350px;
 	overflow:hidden;
 }
+
+.arrowkeys{
+	display: none;
+}
+
+#up{
+	z-index: 100;
+	position: absolute;
+	bottom: 31px;
+	right: 45px;
+	padding: 0px 11px 3px 12px;
+}
+
+#down{
+	z-index: 100;
+	position: absolute;
+	bottom: 10px;
+	right: 45px;
+	padding: 0px 11px 3px 12px;
+}
+
+#left{
+	z-index: 100;
+	position: absolute;
+	bottom: 10px;
+	right: 77px;
+	padding: 1px 8px;
+}
+
+#right{
+	z-index: 100;
+	position: absolute;
+	bottom: 10px;
+	right: 13px;
+	padding: 1px 8px;
+}
+
+#highScore{
+	z-index: 100;
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+}
+
+#score{
+	z-index: 100;
+	position: absolute;
+	top: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	display: none;
+}
+
